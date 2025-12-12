@@ -1,0 +1,29 @@
+.footer {
+  padding: 2rem 1.5rem;
+  background-color: #4A8BDF; /* azul-royal */
+  color: #EFFAFD; /* azul-claro */
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #EFFAFD; /* azul-claro */
+  margin-bottom: 0.5rem;
+}
+
+.footer-text {
+  font-size: 1rem;
+  color: #EFFAFD;
+  margin-bottom: 1rem;
+}
+
+.footer-copy {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
