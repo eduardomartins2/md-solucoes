@@ -1,8 +1,10 @@
+/* Header.css */
+
 .header {
   width: 100%;
   background: #0F172A; /* azul escuro */
-  padding: 15px 0;
-  color: white;
+  padding: 1rem;
+  border-bottom: 2px solid #4A8BDF; /* azul royal */
 }
 
 .header-container {
@@ -16,17 +18,19 @@
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: bold;
+  color: #EFFAFD; /* azul claro */
 }
 
 .nav a {
-  color: white;
+  color: #EFFAFD; /* azul claro */
   margin-left: 20px;
   text-decoration: none;
   font-size: 1rem;
 }
 
 .nav a:hover {
+  color: #A0006D; /* berinjela */
   text-decoration: underline;
 }
