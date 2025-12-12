@@ -7,9 +7,9 @@ export default function Header() {
         <h1 className="logo">MD Soluções</h1>
 
         <nav className="nav">
-          <a href="#">Início</a>
-          <a href="#">Serviços</a>
-          <a href="#">Contato</a>
+          <a href="#hero">Home</a>
+          <a href="#services">Serviços</a>
+          <a href="#contact">Contato</a>
         </nav>
       </div>
     </header>

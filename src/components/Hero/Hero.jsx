@@ -2,15 +2,16 @@ import "./Hero.css";
 
 export default function Hero() {
   return (
-    <section className="hero">
+    <section id="hero" className="hero">
       <div className="hero-content">
-        <h1>MD Soluções em Tecnologia</h1>
+        <h1>Serviços de TI, Suporte Técnico e Desenvolvimento Web</h1>
         <p>
-          Desenvolvimento de sites, manutenção em sistemas, suporte técnico e
-          soluções digitais sob medida para o seu negócio.
+          Oferecemos soluções rápidas e profissionais para pequenas empresas e
+          empreendedores: manutenção de computadores, configuração de redes,
+          criação e manutenção de sites modernos e consultoria em TI.
         </p>
 
-        <a href="#contato" className="hero-btn">
+        <a href="#contact" className="hero-btn">
           Fale Conosco
         </a>
       </div>
