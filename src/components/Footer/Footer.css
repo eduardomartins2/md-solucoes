@@ -1,7 +1,7 @@
 .footer {
   padding: 2rem 1.5rem;
-  background-color: #4A8BDF; /* azul-royal */
-  color: #EFFAFD; /* azul-claro */
+  background-color: #355fa8; /* azul-royal mais escuro */
+  color: #EFFAFD;
   text-align: center;
 }
 
@@ -11,19 +11,18 @@
 }
 
 .footer-logo {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 700;
-  color: #EFFAFD; /* azul-claro */
   margin-bottom: 0.5rem;
 }
 
 .footer-text {
-  font-size: 1rem;
-  color: #EFFAFD;
+  font-size: 0.95rem;
   margin-bottom: 1rem;
+  opacity: 0.9;
 }
 
 .footer-copy {
-  font-size: 0.9rem;
-  opacity: 0.9;
+  font-size: 0.85rem;
+  opacity: 0.75;
 }

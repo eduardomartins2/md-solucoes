@@ -1,7 +1,7 @@
 .hero {
   padding: 3rem 1.5rem;
   text-align: center;
-  background: #EFFAFD; /* branco/azul-claro clean */
+  background: linear-gradient(180deg, #EFFAFD 0%, #ffffff 100%);
 }
 
 .hero-content {
