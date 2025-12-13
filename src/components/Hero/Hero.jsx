@@ -1,20 +1,31 @@
 import "./Hero.css";
+import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
     <section id="hero" className="hero">
-      <div className="hero-content">
+      <motion.div
+        className="hero-content"
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+      >
         <h1>Serviços de TI, Suporte Técnico e Desenvolvimento Web</h1>
+
         <p>
-          Oferecemos soluções rápidas e profissionais para pequenas empresas e
-          empreendedores: manutenção de computadores, configuração de redes,
-          criação e manutenção de sites modernos e consultoria em TI.
+          Soluções rápidas e profissionais para manutenção de computadores,
+          configuração de redes, criação de sites modernos e consultoria em TI.
         </p>
 
-        <a href="#contact" className="hero-btn">
+        <motion.a
+          href="#contact"
+          className="hero-btn"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.97 }}
+        >
           Fale Conosco
-        </a>
-      </div>
+        </motion.a>
+      </motion.div>
     </section>
   );
 }

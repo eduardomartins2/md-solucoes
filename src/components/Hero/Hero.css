@@ -1,7 +1,7 @@
 .hero {
   padding: 3rem 1.5rem;
   text-align: center;
-  background: #EFFAFD; /* azul-claro */
+  background: #EFFAFD; /* branco/azul-claro clean */
 }
 
 .hero-content {
@@ -13,29 +13,27 @@
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #4A8BDF; /* azul royal */
+  color: #4A8BDF; /* azul-royal */
 }
 
 .hero p {
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 2rem;
-  color: #444; /* cinza escuro para boa leitura (neutro) */
+  color: #444;
 }
 
 .hero-btn {
   display: inline-block;
   padding: 0.8rem 1.5rem;
-  background: #4A8BDF; /* azul royal */
+  background: #A0006D; /* berinjela */
   color: white;
   border-radius: 6px;
   font-size: 1rem;
   text-decoration: none;
   transition: 0.3s ease-in-out;
-  border: 0;
-  cursor: pointer;
 }
 
 .hero-btn:hover {
-  background: #A0006D; /* berinjela */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
