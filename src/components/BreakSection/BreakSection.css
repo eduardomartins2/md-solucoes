@@ -1,0 +1,21 @@
+.break-section {
+  padding: 3.5rem 1.5rem;
+  background: #ffffff;
+  text-align: center;
+}
+
+.break-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.break-text {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #4A8BDF; /* azul-royal */
+}
+
+.break-text span {
+  font-weight: 700;
+  color: #A0006D; /* berinjela */
+}
