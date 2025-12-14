@@ -1,35 +1,55 @@
+import { motion } from "framer-motion";
 import "./Services.css";
 
 export default function Services() {
   return (
     <section id="services" className="services">
       <div className="services-container">
-        <h2 className="services-title">Nossos Serviços</h2>
+        <h2 className="services-title">Serviços</h2>
 
         <div className="services-grid">
-          <div className="service-card">
-            <h3>Desenvolvimento de Sites</h3>
-            <p>
-              Criação de sites modernos, rápidos e responsivos,
-              com foco em performance e experiência do usuário.
-            </p>
-          </div>
-
-          <div className="service-card">
+          <motion.div
+            className="service-card"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            whileHover={{ scale: 1.05 }}
+          >
             <h3>Suporte Técnico</h3>
             <p>
-              Manutenção de computadores, redes, impressoras e
-              assistência técnica para empresas e usuários domésticos.
+              Manutenção de computadores, instalação de softwares, redes e
+              impressoras.
             </p>
-          </div>
+          </motion.div>
 
-          <div className="service-card">
-            <h3>Consultoria & Otimização</h3>
+          <motion.div
+            className="service-card"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            viewport={{ once: true }}
+            whileHover={{ scale: 1.05 }}
+          >
+            <h3>Desenvolvimento Web</h3>
             <p>
-              Análise, ajustes e melhorias em sistemas, infraestrutura
-              e fluxos de trabalho para aumentar produtividade.
+              Criação de sites modernos, rápidos e responsivos para seu negócio.
             </p>
-          </div>
+          </motion.div>
+
+          <motion.div
+            className="service-card"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            viewport={{ once: true }}
+            whileHover={{ scale: 1.05 }}
+          >
+            <h3>Consultoria em TI</h3>
+            <p>
+              Apoio técnico e orientação para pequenas empresas e profissionais.
+            </p>
+          </motion.div>
         </div>
       </div>
     </section>

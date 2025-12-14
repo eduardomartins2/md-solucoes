@@ -1,12 +1,17 @@
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
   width: 100%;
   background-color: #4A8BDF; /* azul-royal */
-  padding: 1rem;
-  border-bottom: 2px solid #A0006D; /* berinjela sutil */
+  padding: 1.2rem 0;
+  transition: all 0.3s ease-in-out;
 }
 
 .header.scrolled {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  padding: 0.6rem 0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
 .header-container {
@@ -20,9 +25,9 @@
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #EFFAFD; /* azul-claro */
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #EFFAFD;
 }
 
 .nav a {
@@ -30,9 +35,9 @@
   margin-left: 20px;
   text-decoration: none;
   font-size: 1rem;
-  transition: 0.2s ease-in-out;
+  transition: color 0.2s ease;
 }
 
 .nav a:hover {
-  color: #A0006D; /* berinjela */
+  color: #A0006D;
 }
