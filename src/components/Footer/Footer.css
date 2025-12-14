@@ -4,6 +4,7 @@
   padding-top: 3rem;
 }
 
+/* CONTAINER PRINCIPAL */
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -15,6 +16,7 @@
   text-align: center;
 }
 
+/* TÍTULOS */
 .footer h3 {
   font-size: 1.4rem;
   margin-bottom: 0.6rem;
@@ -22,20 +24,29 @@
 
 .footer h4 {
   font-size: 1.1rem;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.8rem;
 }
 
+/* TEXTOS */
 .footer p {
   font-size: 0.95rem;
   line-height: 1.6;
   color: #EFFAFD;
 }
 
+/* LINKS DE NAVEGAÇÃO */
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* MOBILE: links lado a lado, quebram linha e centralizam */
 .footer-links a {
-  display: block;
+  display: inline-block;
   color: #EFFAFD;
   text-decoration: none;
-  margin-bottom: 0.4rem;
+  margin: 0 0.6rem 0.6rem;
   transition: color 0.2s ease;
 }
 
@@ -43,6 +54,12 @@
   color: #A0006D; /* berinjela */
 }
 
+/* ÁREA DE CONTATO */
+.footer-contact p {
+  margin-bottom: 0.4rem;
+}
+
+/* BARRA INFERIOR */
 .footer-bottom {
   background-color: rgba(0, 0, 0, 0.1);
   padding: 1rem;
@@ -50,10 +67,19 @@
   font-size: 0.85rem;
 }
 
-/* Desktop */
+/* DESKTOP */
 @media (min-width: 768px) {
   .footer-container {
     grid-template-columns: repeat(3, 1fr);
     text-align: left;
+  }
+
+  .footer-links {
+    align-items: flex-start;
+  }
+
+  .footer-links a {
+    display: block;
+    margin: 0 0 0.4rem;
   }
 }
