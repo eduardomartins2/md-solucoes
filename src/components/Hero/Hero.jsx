@@ -6,22 +6,58 @@ export default function Hero() {
     <section id="hero" className="hero">
       <motion.div
         className="hero-content"
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
+        initial="hidden"
+        animate="visible"
+        variants={{
+          hidden: {},
+          visible: {
+            transition: {
+              delayChildren: 0.3,
+              staggerChildren: 0.25,
+            },
+          },
+        }}
       >
-        <h1>Serviços de TI, Suporte Técnico e Desenvolvimento Web</h1>
+        <motion.h1
+          variants={{
+            hidden: { opacity: 0, y: 40 },
+            visible: {
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.9, ease: "easeOut" },
+            },
+          }}
+        >
+          Serviços de TI, Suporte Técnico e Desenvolvimento Web
+        </motion.h1>
 
-        <p>
+        <motion.p
+          variants={{
+            hidden: { opacity: 0, y: 40 },
+            visible: {
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.9, ease: "easeOut" },
+            },
+          }}
+        >
           Soluções rápidas e profissionais para manutenção de computadores,
           configuração de redes, criação de sites modernos e consultoria em TI.
-        </p>
+        </motion.p>
 
         <motion.a
           href="#contact"
           className="hero-btn"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.97 }}
+          variants={{
+            hidden: { opacity: 0, y: 30 },
+            visible: {
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.8, ease: "easeOut" },
+            },
+          }}
+          whileHover={{ scale: 1.06 }}
+          whileTap={{ scale: 0.96 }}
         >
           Fale Conosco
         </motion.a>

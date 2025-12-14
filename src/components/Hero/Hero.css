@@ -10,7 +10,7 @@
 }
 
 .hero h1 {
-  font-size: 2rem;
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
   font-weight: 700;
   margin-bottom: 1rem;
   color: #4A8BDF; /* azul-royal */
