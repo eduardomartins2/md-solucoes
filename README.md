@@ -1,16 +1,113 @@
-# React + Vite
+# MD Soluções
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site institucional da **MD Soluções**, focado em serviços de TI, suporte técnico e desenvolvimento web, com design moderno, animações sutis e performance otimizada.
 
-Currently, two official plugins are available:
+## 🧩 Visão Geral
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O projeto foi desenvolvido com foco em:
 
-## React Compiler
+* Clareza visual
+* Experiência do usuário
+* Animações suaves (sem exageros)
+* Código organizado e escalável
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Inspirado em referências modernas de estúdios digitais, priorizando profissionalismo.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tecnologias Utilizadas
+
+* **React** (Vite)
+* **CSS3** (estilização manual, sem frameworks)
+* **Framer Motion** (animações)
+* **Vercel** (deploy)
+
+---
+
+## 🎨 Principais Funcionalidades
+
+* Hero section com animação de entrada
+* Header sticky com efeito ao scroll
+* Cards de serviços animados (entrada + hover)
+* Seção de contato com CTA animado
+* Layout totalmente responsivo
+* Gradientes sutis aplicados estrategicamente
+
+---
+
+## 📂 Estrutura de Pastas
+
+```bash
+src/
+ ├─ components/
+ │   ├─ Header/
+ │   ├─ Hero/
+ │   ├─ Services/
+ │   ├─ Contact/
+ │   ├─ Footer/
+ │   └─ Reveal/
+ ├─ App.jsx
+ ├─ main.jsx
+ └─ index.css
+```
+
+---
+
+## ⚙️ Como Rodar Localmente
+
+```bash
+# clonar o repositório
+git clone https://github.com/seu-usuario/md-solucoes.git
+
+# entrar no projeto
+cd md-solucoes
+
+# instalar dependências
+npm install
+
+# rodar em ambiente de desenvolvimento
+npm run dev
+```
+
+A aplicação estará disponível em:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🌐 Deploy
+
+O projeto está hospedado na **Vercel**, com deploy contínuo a partir da branch principal.
+
+Para gerar um novo deploy:
+
+```bash
+git push origin main
+```
+
+---
+
+## 🔒 Boas Práticas Adotadas
+
+* Componentização clara
+* Separação de responsabilidades
+* Animações controladas para evitar impacto em performance
+* Uso de `rel="noopener noreferrer"` em links externos
+* Sem dependências desnecessárias
+
+---
+
+## 📈 Próximas Melhorias
+
+* SEO avançado
+* Otimização de acessibilidade (ARIA)
+* Animações condicionais (`prefers-reduced-motion`)
+* Página dedicada para cada serviço
+
+---
+
+## 📄 Licença
+
+Projeto de uso institucional. Todos os direitos reservados.
