@@ -20,7 +20,7 @@ export default function Contact() {
 
         <div className="contact-actions">
           <motion.a
-            href="https://wa.me/5500000000000"
+            href="https://wa.me/+55999604654"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-btn primary"
@@ -31,7 +31,7 @@ export default function Contact() {
           </motion.a>
 
           <motion.a
-            href="mailto:contato@mdsolucoes.com"
+            href="mailto:eduardomartins2dev2@gmail.com"
             className="contact-btn secondary"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.96 }}
